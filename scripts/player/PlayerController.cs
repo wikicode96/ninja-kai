@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public partial class Player : CharacterBody2D
+public partial class PlayerController : CharacterBody2D
 {
 	[Export]
 	public int Speed = 400; // Velocidad del personaje
