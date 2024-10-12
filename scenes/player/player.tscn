@@ -18,3 +18,5 @@ mesh = SubResource("QuadMesh_gnkx7")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 scale = Vector2(2, 2)
 shape = SubResource("RectangleShape2D_3n3vq")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
